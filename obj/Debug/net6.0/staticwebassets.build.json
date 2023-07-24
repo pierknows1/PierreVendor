@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "f1xuevwiYso7Ox0hZ6ycX9OksEgaqL7UK3ECyAAXVbM=",
-  "Source": "VendorApp",
-  "BasePath": "_content/VendorApp",
+  "Hash": "1qxXKqy6mVhH8+NRD50qomc7sGDloSr4kpvcwC36UZk=",
+  "Source": "PierreVendor",
+  "BasePath": "_content/PierreVendor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

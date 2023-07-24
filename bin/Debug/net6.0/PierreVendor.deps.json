@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "VendorApp/1.0.0": {
+      "PierreVendor/1.0.0": {
         "runtime": {
-          "VendorApp.dll": {}
+          "PierreVendor.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "VendorApp/1.0.0": {
+    "PierreVendor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

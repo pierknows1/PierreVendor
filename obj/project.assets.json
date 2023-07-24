@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/Pierre-Vendor/PierreVendor/VendorApp.csproj",
-      "projectName": "VendorApp",
-      "projectPath": "/Users/user/Desktop/Pierre-Vendor/PierreVendor/VendorApp.csproj",
+      "projectUniqueName": "/Users/user/Desktop/Pierre-Vendor/PierreVendor/PierreVendor.csproj",
+      "projectName": "PierreVendor",
+      "projectPath": "/Users/user/Desktop/Pierre-Vendor/PierreVendor/PierreVendor.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
       "outputPath": "/Users/user/Desktop/Pierre-Vendor/PierreVendor/obj/",
       "projectStyle": "PackageReference",
