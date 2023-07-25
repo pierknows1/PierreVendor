@@ -6,9 +6,8 @@ namespace PierreVendor.Models
    {
         public string MyOrder { get; set; }
         public string Description { get; set; }
-        private static List<Order> _instances = new List<Order> { };
-
         public int Id { get; }
+        private static List<Order> _instances = new List<Order> { };
         public Order (string orderTest, string orderDescription )
         {
             MyOrder = orderTest;
@@ -25,9 +24,9 @@ namespace PierreVendor.Models
             _instances.Clear();
         }
 
-        public static Order Find (int searchId)
+        public static Order Find (int vendorId)
         {
-            return _instances[searchId - 1];
+            return _instances[vendorId - 1];
         }
    }
 }

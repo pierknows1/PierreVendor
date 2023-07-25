@@ -1,13 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using PierreVendor.Models;
-using System;
 
 namespace PierreVendor.Controllers
 {
     public class OrderController : Controller
     {
-[HttpGet("/vendors/{vendorId}/orders/new")]
+    [HttpGet("/vendors/{vendorId}/orders/new")]
     public ActionResult New(int vendorId)
     {
       Vendor vendor = Vendor.Find(vendorId);

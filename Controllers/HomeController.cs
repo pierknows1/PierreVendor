@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace PierreVendor.Controllers;
-
+namespace PierreVendor.Controllers
+{
 public class HomeController : Controller
 {
    
@@ -12,5 +12,7 @@ public class HomeController : Controller
     {
         return View();
     }
+}
+
 }
 

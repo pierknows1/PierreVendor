@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using PierreVendor.Models;
-using System;
 
 namespace PierreVendor.Controllers
 {
@@ -11,7 +10,7 @@ namespace PierreVendor.Controllers
         public ActionResult Index()
         {
             List<Vendor> vendorList = Vendor.GetAll();
-            return View();
+            return View(vendorList);
         }
 
         [HttpGet("/vendors/new")]
