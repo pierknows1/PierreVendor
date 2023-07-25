@@ -26,7 +26,7 @@ namespace PierreVendor.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPost()]
+        [HttpPost("/vendors/delete")]
         public ActionResult DeleteAllVendors()
         {
             Vendor.ClearAll();
